@@ -5,8 +5,8 @@ describe SingaporeRelativeClock do
 		@clock = SingaporeRelativeClock.new
 	end
 
-	it "should..." do
-
+	it "it should return 2.5 for Bangalore" do
+		@finder.offsetFor("Bangalore").should === -2.5	
 	end
 
 end
