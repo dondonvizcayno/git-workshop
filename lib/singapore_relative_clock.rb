@@ -7,6 +7,7 @@ class SingaporeRelativeClock
 	 	@singapore_offset = @finder.offsetFor("singapore")
 	 	@city_offset = @finder.offsetFor(city)
 	 	@diff =  @singapore_offset - @city_offset
+	 	#comment
 	end
 
 end
