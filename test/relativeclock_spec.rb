@@ -6,7 +6,9 @@ describe SingaporeRelativeClock do
 	end
 
 	
-	
+	it "should find the GMT offset for a known city" do
+		@clock.timeDifferenceTo("Melbourne").should_not be_nil
+	end
 
 
 end
