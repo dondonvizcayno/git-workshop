@@ -7,8 +7,7 @@ class SingaporeRelativeClock
 			-2
 		elsif city == "Singapore" begin
 			0
-		end
-		
+		end		
 	end
 
 end
