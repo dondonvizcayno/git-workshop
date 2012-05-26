@@ -4,6 +4,7 @@ require_relative '../lib/singapore_relative_clock.rb'
 
 get '/' do
 	"Try using me like... #{request.url}city/Singapore"
+	#just a comment!
 end
 
 get '/city/:city' do
