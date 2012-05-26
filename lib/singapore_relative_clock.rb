@@ -6,7 +6,7 @@ class SingaporeRelativeClock
 		@finder = GMTOffsetFinder.new		
 	 	@singapore_offset = @finder.offsetFor("singapore")
 	 	@city_offset = @finder.offsetFor(city)
-	 	@diff = @city_offset - @singapore_offset
+	 	@diff =  @singapore_offset - city_offset
 	end
 
 end
