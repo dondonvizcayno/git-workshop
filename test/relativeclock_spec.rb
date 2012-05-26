@@ -8,8 +8,7 @@ describe SingaporeRelativeClock do
 	
 	it "should find the GMT offset for a known city" do
 		@clock.timeDifferenceTo("Sydney").should === -2
-		@clock.timeDifferenceTo("Singapore").should === 0
-		@clock.timeDifferenceTo("New York").should === 8
+		@clock.timeDifferenceTo("Singapore").should === 0		
 	end
 
 
